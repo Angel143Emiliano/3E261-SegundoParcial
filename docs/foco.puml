@@ -18,6 +18,6 @@ Usuario o-- Foco
 Foco *-- EstadoFoco
 EstadoFoco --|> Booleano
 Usuario o-- SerieFocos
-EstadoFoco
+EstadoFoco --|> Texto 
 
 @enduml 
