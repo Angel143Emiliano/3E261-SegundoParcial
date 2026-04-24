@@ -17,6 +17,7 @@ class SerieFocos{
 Usuario o-- Foco
 Foco *-- EstadoFoco
 EstadoFoco --|> Booleano
-Us
+Usuario o-- SerieFocos
+EstadoFoco
 
 @enduml 

@@ -9,16 +9,14 @@ class Foco
 
     public:
     Foco(){
-        this->encendido = true;
+        this->encendido = "-";
     }
-    ~Foco (){
-         this->encendido = true;
-    }
+    ~Foco (){} 
     void Encender(){
-         this->encendido = true;
+         this->encendido = "+";
     }
     void Apagar(){
-          this->encendido = false;
+          this->encendido = "-";
     }
           EstadoFoco LeerEstado()
           {
